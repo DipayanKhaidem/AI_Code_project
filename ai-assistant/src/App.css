@@ -1,0 +1,126 @@
+html,body, #root{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial',sans-serif;
+  background-color:#fff;
+  color: #000;
+}
+
+.app-wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content{
+  flex: 1;
+}
+
+.file-info{
+  margin-top: 0.5rem;
+  font-size: 14px;
+  color: #444;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #000;
+}
+.logo{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.tabs{
+  display: flex;
+  gap: 1rem;
+}
+.tabs .tab{
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.tabs .tab:hover,
+.tabs .tab.active{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container{
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card{
+  border: 1px dashed #aaa;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.upload-box{
+  border: 1px dashed #aaa;
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  }
+
+  .icon{
+    font-size: 2rem;
+  }
+
+  .upload-btn,
+  .generate-btn{
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .upload-btn:hover,
+  .generate-btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+
+  textarea{
+     width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+  }
+
+  select{
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+
+  .footer{
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #fff;
+    background-color: #000;
+  }

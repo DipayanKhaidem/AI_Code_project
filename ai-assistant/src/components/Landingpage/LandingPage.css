@@ -1,0 +1,164 @@
+.landing-page {
+  color: white;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.Landingnavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #000;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero .highlight {
+  color: #bbb;
+}
+
+.hero p {
+  margin: 1rem 0 2rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.cta-button {
+  padding: 0.75rem 2rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #222;
+}
+
+.features-section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  margin: 1rem;
+  box-shadow: 0 0 8px rgba(255,255,255,0.05);
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.how-it-works {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.step {
+  width: 220px;
+  margin: 1rem;
+}
+
+.step-number {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #888;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+.code-generator {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #111;
+}
+
+.code-gen-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.code-box {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  margin: 1rem;
+  box-shadow: 0 0 8px rgba(255,255,255,0.05);
+}
+
+.code-box h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.code-box p {
+  color: #ccc;
+}
+.multilingual-section {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.multilingual-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.multilingual-section p {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+}
+

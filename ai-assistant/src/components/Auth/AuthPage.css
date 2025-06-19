@@ -1,0 +1,55 @@
+
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f0f; 
+}
+.auth-container {
+  background: #1c1c1c;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-container h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: white;
+}
+
+.auth-container button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #1c1c1c;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-toggle {
+  margin-top: 1.5rem;
+  color: #bbb;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
